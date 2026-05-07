@@ -1,6 +1,7 @@
-# Emotion Detection Pipeline
+# Final Project: Emotion Detection Pipeline
+Repository Name: `oaqjp-final-project-emb-ai`
 
-This is a Flask-based web application that uses the IBM Watson Natural Language Understanding (NLU) API to detect emotions in text.
+This is the Final Project for the AI Capstone course. It is a Flask-based web application that uses the IBM Watson Natural Language Understanding (NLU) API to detect emotions in text.
 
 ## Features
 - Analyzes text for 5 emotions: Anger, Disgust, Fear, Joy, and Sadness.
