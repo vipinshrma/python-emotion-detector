@@ -1,0 +1,14 @@
+vipan:~/rag-learning/emotion-detector$ python3
+Python 3.11.0 (main, Oct 24 2022, 18:26:48) [Clang 14.0.0 (clang-1400.0.29.202)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am so happy I am doing this.")
+{'anger': 0.004334, 'disgust': 0.000375, 'fear': 0.003473, 'joy': 0.994719, 'sadness': 0.012705, 'dominant_emotion': 'joy'}
+>>> exit()
+
+vipan:~/rag-learning/emotion-detector$ python3 test_emotion_detection.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 2.191s
+
+OK
